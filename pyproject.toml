@@ -1,0 +1,14 @@
+[project]
+name = "llm-tuning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=1.18.0",
+    "pandas>=2.2.3",
+    "polars>=1.30.0",
+    "sqlitecloud>=0.0.84",
+    "streamlit>=1.45.1",
+    "watchdog>=6.0.0",
+]
